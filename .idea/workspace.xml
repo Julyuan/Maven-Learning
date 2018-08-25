@@ -2,27 +2,41 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="23f0f356-edb9-4bc9-b16d-547df9e87e49" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/GuomiJava/Guomi_Interface.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/GuomiJava/Jni_Guomi.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/test/Jni_Guomi.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/test/libGMSM2.so" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/test/libJni_guomi.so" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/test/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/test/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/META-INF/BenchmarkList" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/META-INF/BenchmarkList" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/CompilerHints" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/META-INF/CompilerHints" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/test/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/test/generated/Main_jdkAES_jmhTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/test/generated/Main_jdkAES_jmhTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/test/generated/Main_jdkECDSAGernerateKey_jmhTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/test/generated/Main_jdkECDSAGernerateKey_jmhTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/test/generated/Main_jdkECDSASign_jmhTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/test/generated/Main_jdkECDSASign_jmhTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/test/generated/Main_jdkECDSAVerify_jmhTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/test/generated/Main_jdkECDSAVerify_jmhTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/test/generated/Main_jdkECDSA_jmhTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/test/generated/Main_jdkSHA1_jmhTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/test/generated/Main_jdkSHA256_jmhTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/test/generated/Main_jdkSHA256_jmhTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/test/generated/Main_jdkAES_jmhTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/test/generated/Main_jdkECDSAGernerateKey_jmhTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/test/generated/Main_jdkECDSASign_jmhTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/test/generated/Main_jdkECDSAVerify_jmhTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/test/generated/Main_jdkSHA256_jmhTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/test/generated/Main_jmhType.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/test/generated/Main_jmhType_B1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/test/generated/Main_jmhType_B2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/test/generated/Main_jmhType_B3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/dependency-reduced-pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/dependency-reduced-pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/generated-sources/annotations/test/generated/CryptoTest_jdkAES_jmhTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/generated-sources/annotations/test/generated/CryptoTest_jmhType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/generated-sources/annotations/test/generated/CryptoTest_jmhType_B1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/generated-sources/annotations/test/generated/CryptoTest_jmhType_B2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/generated-sources/annotations/test/generated/CryptoTest_jmhType_B3.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/generated-sources/annotations/test/generated/Main_jdkAES_jmhTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/generated-sources/annotations/test/generated/Main_jdkECDSAGernerateKey_jmhTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/generated-sources/annotations/test/generated/Main_jdkECDSASign_jmhTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/generated-sources/annotations/test/generated/Main_jdkECDSAVerify_jmhTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/generated-sources/annotations/test/generated/Main_jdkECDSA_jmhTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/generated-sources/annotations/test/generated/Main_jdkSHA1_jmhTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/generated-sources/annotations/test/generated/Main_jdkSHA256_jmhTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/generated-sources/annotations/test/generated/Main_jmhType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/generated-sources/annotations/test/generated/Main_jmhType_B1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/generated-sources/annotations/test/generated/Main_jmhType_B2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/generated-sources/annotations/test/generated/Main_jmhType_B3.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/original-test-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/original-test-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-1.0-SNAPSHOT.jar" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -89,64 +103,34 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="java" value="1587" />
-          <entry key="xml" value="32" />
+          <entry key="xml" value="48" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="JAVA" value="1587" />
-          <entry key="XML" value="32" />
+          <entry key="XML" value="48" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="4" />
+          <entry key="JAVA" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="4" />
+          <entry key="java" value="5" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="28" column="26" selection-start-line="28" selection-start-column="26" selection-end-line="28" selection-end-column="26" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/test/Main.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1620">
-              <caret line="108" selection-start-line="108" selection-end-line="112" selection-end-column="57" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/test/Jni_Guomi.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="13" column="57" selection-start-line="13" selection-start-column="57" selection-end-line="13" selection-end-column="57" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/GuomiJava/Guomi_Interface.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="13" column="41" selection-start-line="13" selection-start-column="41" selection-end-line="13" selection-end-column="41" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="285">
+              <caret line="46" column="72" selection-start-line="46" selection-start-column="72" selection-end-line="46" selection-end-column="72" />
             </state>
           </provider>
         </entry>
@@ -161,19 +145,22 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/target/generated-sources/annotations/test/generated/Main_jdkSHA256_jmhTest.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/test/CryptoTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="570">
-              <caret line="66" selection-start-line="66" selection-end-line="66" />
+            <state relative-caret-position="255">
+              <caret line="17" column="25" selection-start-line="17" selection-start-column="25" selection-end-line="17" selection-end-column="25" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/test/CryptoTest.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/GuomiJava/Guomi_Interface.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="17" column="25" selection-start-line="17" selection-start-column="25" selection-end-line="17" selection-end-column="25" />
+            <state relative-caret-position="-1470">
+              <caret line="16" column="22" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -202,10 +189,10 @@
         <option value="$PROJECT_DIR$/src/main/java/Tutorial.java" />
         <option value="$PROJECT_DIR$/src/main/java/Main.java" />
         <option value="$PROJECT_DIR$/src/main/java/test/CryptoTest.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/test/Main.java" />
         <option value="$PROJECT_DIR$/src/main/java/test/Jni_Guomi.java" />
         <option value="$PROJECT_DIR$/src/main/java/GuomiJava/Guomi_Interface.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
       </list>
     </option>
   </component>
@@ -270,6 +257,38 @@
             </path>
             <path>
               <item name="Maven-Learning" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Maven-Learning" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Maven-Learning" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Maven-Learning" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Maven-Learning" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Maven-Learning" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="classes" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Maven-Learning" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Maven-Learning" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="classes" type="462c0819:PsiDirectoryNode" />
+              <item name="GuomiJava" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Maven-Learning" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Maven-Learning" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="generated-sources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Maven-Learning" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
@@ -283,7 +302,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1535184290935" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1535194039165" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/test.iml" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
@@ -370,6 +389,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="64" y="-11" width="1303" height="780" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.28924304" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -380,7 +400,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4812749" weight="0.32298136" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.48047808" visible="true" weight="0.32298136" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.4995958" weight="0.39893618" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -388,7 +408,7 @@
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" order="9" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5187251" side_tool="true" visible="true" weight="0.32298136" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5195219" side_tool="true" visible="true" weight="0.32298136" />
       <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.48047808" weight="0.32763976" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -461,13 +481,6 @@
     </entry>
     <entry file="jar://C:/Program Files/Java/jdk-9.0.4/lib/src.zip!/java.base/java/security/MessageDigest.java" />
     <entry file="file://$PROJECT_DIR$/test.iml" />
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="28" column="26" selection-start-line="28" selection-start-column="26" selection-end-line="28" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/test/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1620">
@@ -505,11 +518,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/GuomiJava/Guomi_Interface.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="13" column="41" selection-start-line="13" selection-start-column="41" selection-end-line="13" selection-end-column="41" />
+        <state relative-caret-position="-1470">
+          <caret line="16" column="22" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="46" column="72" selection-start-line="46" selection-start-column="72" selection-end-line="46" selection-end-column="72" />
         </state>
       </provider>
     </entry>
