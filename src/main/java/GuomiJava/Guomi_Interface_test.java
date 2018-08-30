@@ -18,19 +18,19 @@ public class Guomi_Interface_test {
     static byte[][] sig = new byte[19][];
 
     //用于SM4的明文
-    static byte[][] plain = new byte[10][];
+    static byte[][] plain = new byte[16][];
     //SM4的密钥
-    static byte[][] sm4key = new byte[10][];
+    static byte[][] sm4key = new byte[16][];
 
     //SM4中CBC向量
-    static byte[][] iv = new byte[10][];
+    static byte[][] iv = new byte[16][];
     //SM4中加密的密文
-    static byte[][] cypher = new byte[10][];
+    static byte[][] cypher = new byte[16][];
 
     @Param({"1","2","3","4","5","6","7","8","9","10","11","12","13","14","15","16","17","18","19"})
     static int msg_size;
 
-  //  @Param({"1","2","3","4","5","6","7","8","9","10","11","12","13","14","15","16"})
+  //  @Param({"1","2","3","4","5","6","7","8","9","10","11","12","13","14","15"})
     static int plain_size;
 
     static int plain_length;
@@ -59,8 +59,8 @@ public class Guomi_Interface_test {
             cypher[i] = sm4EncCBC(plain[i], sm4key[i], iv[i] ,nativeCode);
         }
 
-        for(int i=11;i<17;i++){
-            plain[i] = randomBytes(1<<(i-7));
+        for(int i=10;i<16;i++){
+            plain[i] = randomBytes(1<<(i-6));
             sm4key[i] = randomBytes(16);
             iv[i] = randomBytes(16);
             cypher[i] = sm4EncCBC(plain[i], sm4key[i], iv[i], nativeCode);
