@@ -3,12 +3,7 @@ dontinline,*.*_avgt_jmhStub
 dontinline,*.*_sample_jmhStub
 dontinline,*.*_ss_jmhStub
 dontinline,*.*_thrpt_jmhStub
-inline,GuomiJava/Guomi_Interface.finish
-inline,GuomiJava/Guomi_Interface.init
-inline,GuomiJava/Guomi_Interface.sm2GetKeyTest
-inline,GuomiJava/Guomi_Interface.sm2SignTest
-inline,GuomiJava/Guomi_Interface.sm2VerifyTest
-inline,GuomiJava/Guomi_Interface.sm3HashTest
-inline,GuomiJava/Guomi_Interface.sm4DecCBCTest
-inline,GuomiJava/Guomi_Interface.sm4EncCBCTest
+inline,GuomiJava/Guomi_Interface_test.finish
+inline,GuomiJava/Guomi_Interface_test.init
+inline,GuomiJava/Guomi_Interface_test.sm2VerifyTest
 inline,org/openjdk/jmh/infra/Blackhole.clearSinks

@@ -1,42 +1,17 @@
 package GuomiJava;
 
-import org.openjdk.jmh.annotations.*;
 import org.openjdk.jmh.runner.Runner;
 import org.openjdk.jmh.runner.options.Options;
 import org.openjdk.jmh.runner.options.OptionsBuilder;
 
 import java.util.Random;
 
-@State(Scope.Thread)
+// @State(Scope.Thread)
 public class Guomi_Interface {
     // Definitions of public and private keys for sm2
 
     static GuomiJava.Jni_Guomi nativeCode;
-    static PriKey Pri_Key;
-    static byte[] msg;
-    static byte[] sig;
-    static byte[] plain;
-    static byte[] sm4key;
-    static byte[] iv;
-    static byte[] cypher;
-
-
-    @Setup(Level.Trial)
-    public static void init(){
-        nativeCode = getNative();
-        Pri_Key = sm2GetKey(nativeCode);
-        msg = randomBytes(59);
-        sig = sm2Sign(msg, Pri_Key, nativeCode);
-        plain = new byte[32];
-        for(int i=0;i<32;i++)
-            plain[i] = (byte)i;
-        sm4key = "1234567890123456".getBytes();
-        iv = randomBytes(16);
-        cypher = sm4EncCBC(plain, sm4key, iv ,nativeCode);
-
-    }
-    @TearDown(Level.Trial)
-    public static void finish(){}
+    
     public static class PubKey
     {
         byte[] X;
@@ -54,6 +29,7 @@ public class Guomi_Interface {
         GuomiJava.Jni_Guomi nativeCode = new GuomiJava.Jni_Guomi();
         try {
             System.loadLibrary("NativeCode");
+    //        System.load("/home/dell/GitLibrary/Maven-Learning/src/main/java/GuomiJava/libNativeCode.so");
         }
         catch(Exception e)
         {
@@ -62,13 +38,7 @@ public class Guomi_Interface {
         return nativeCode;
     }
 
-    @Benchmark
-    public static void sm2GetKeyTest(){
-        GuomiJava.Jni_Guomi nativeCode = getNative();
 
-        sm2GetKey(nativeCode);
-
-    }
 
     //Randomly generate an sm2 key pair
     public static PriKey sm2GetKey(GuomiJava.Jni_Guomi nativeCode)
@@ -90,12 +60,7 @@ public class Guomi_Interface {
         return result;
     }
 
-    @Benchmark
-    public static byte[] sm2SignTest(){
 
-        return sm2Sign(msg, Pri_Key, nativeCode);
-
-    }
 
     //sm2 sign method
     public static byte[] sm2Sign(byte[] msg, PriKey Pri_Key, GuomiJava.Jni_Guomi nativeCode)
@@ -113,10 +78,7 @@ public class Guomi_Interface {
         return signature;
     }
 
-    @Benchmark
-    public static void sm2VerifyTest(){
-        sm2Verify(msg, sig, Pri_Key.Pub_Key, nativeCode);
-    }
+
 
     //sm2 verify method
     public static boolean sm2Verify(byte[] msg, byte[] signature, PubKey Pub_Key, GuomiJava.Jni_Guomi nativeCode)
@@ -134,10 +96,7 @@ public class Guomi_Interface {
         return result;
     }
 
-    @Benchmark
-    public static void sm3HashTest(){
-        sm3Hash(msg, nativeCode);
-    }
+
 
     //sm3 hash method
     public static byte[] sm3Hash(byte[] msg, GuomiJava.Jni_Guomi nativeCode)
@@ -155,10 +114,7 @@ public class Guomi_Interface {
         return result;
     }
 
-    @Benchmark
-    public static void sm4EncCBCTest(){
-        sm4EncCBC(plain, sm4key, iv, nativeCode);
-    }
+
 
     //sm4 encrytion method, iv is a randomly generated 16-byte array, msg must be at least 16 bytes long and key is 16 bytes long
     //For exemple, iv = randomBytes(16); sm4EncCBC (msg, key, iv, nativeCode
@@ -178,10 +134,7 @@ public class Guomi_Interface {
     }
 
 
-    @Benchmark
-    public static void sm4DecCBCTest(){
-        sm4DecCBC(cypher, sm4key, iv, nativeCode);
-    }
+
 
     //sm4 decryption method, using the same key and iv in encryption to decrypt
     public static byte[] sm4DecCBC(byte[] cypher, byte[] key, byte[] iv, GuomiJava.Jni_Guomi nativeCOde)
