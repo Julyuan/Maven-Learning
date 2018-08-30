@@ -30,7 +30,7 @@ public class Guomi_Interface_test {
     @Param({"1","2","3","4","5","6","7","8","9","10","11","12","13","14","15","16","17","18","19"})
     static int msg_size;
 
-  //  @Param({"1","2","3","4","5","6","7","8","9","10"})
+  //  @Param({"1","2","3","4","5","6","7","8","9","10","11","12","13","14","15","16"})
     static int plain_size;
 
     static int plain_length;
@@ -57,6 +57,13 @@ public class Guomi_Interface_test {
             sm4key[i] = randomBytes(16);
             iv[i] = randomBytes(16);
             cypher[i] = sm4EncCBC(plain[i], sm4key[i], iv[i] ,nativeCode);
+        }
+
+        for(int i=11;i<17;i++){
+            plain[i] = randomBytes(1<<(i-7));
+            sm4key[i] = randomBytes(16);
+            iv[i] = randomBytes(16);
+            cypher[i] = sm4EncCBC(plain[i], sm4key[i], iv[i], nativeCode);
         }
 
 
