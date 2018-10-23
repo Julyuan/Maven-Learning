@@ -28,8 +28,8 @@ import org.openjdk.jmh.infra.BenchmarkParams;
 import org.openjdk.jmh.infra.IterationParams;
 
 import org.openjdk.jmh.infra.generated.Blackhole_jmhType;
-import GuomiJava.generated.Guomi_Interface_test_jmhType;
-public final class Guomi_Interface_test_sm2VerifyTest_jmhTest {
+import GuomiJava.generated.Guomi_Interface_sm2_test_jmhType;
+public final class Guomi_Interface_sm2_test_sm2VerifyTest_jmhTest {
 
     boolean p000, p001, p002, p003, p004, p005, p006, p007, p008, p009, p010, p011, p012, p013, p014, p015;
     boolean p016, p017, p018, p019, p020, p021, p022, p023, p024, p025, p026, p027, p028, p029, p030, p031;
@@ -53,22 +53,22 @@ public final class Guomi_Interface_test_sm2VerifyTest_jmhTest {
         if (threadParams.getSubgroupIndex() == 0) {
             RawResults res = new RawResults();
             Blackhole_jmhType l_blackhole1_1 = _jmh_tryInit_f_blackhole1_1(control, threadParams);
-            Guomi_Interface_test_jmhType l_guomi_interface_test0_0 = _jmh_tryInit_f_guomi_interface_test0_0(control, threadParams);
+            Guomi_Interface_sm2_test_jmhType l_guomi_interface_sm2_test0_0 = _jmh_tryInit_f_guomi_interface_sm2_test0_0(control, threadParams);
 
             control.preSetup();
             l_blackhole1_1.clearSinks();
 
             control.announceWarmupReady();
             while (control.warmupShouldWait) {
-                l_guomi_interface_test0_0.sm2VerifyTest();
+                l_guomi_interface_sm2_test0_0.sm2VerifyTest();
                 res.allOps++;
             }
 
-            sm2VerifyTest_thrpt_jmhStub(control, res, l_guomi_interface_test0_0, l_blackhole1_1);
+            sm2VerifyTest_thrpt_jmhStub(control, res, l_guomi_interface_sm2_test0_0, l_blackhole1_1);
             control.announceWarmdownReady();
             try {
                 while (control.warmdownShouldWait) {
-                    l_guomi_interface_test0_0.sm2VerifyTest();
+                    l_guomi_interface_sm2_test0_0.sm2VerifyTest();
                     res.allOps++;
                 }
                 control.preTearDown();
@@ -77,8 +77,8 @@ public final class Guomi_Interface_test_sm2VerifyTest_jmhTest {
             }
 
             if (control.isLastIteration()) {
-                l_guomi_interface_test0_0.finish();
-                f_guomi_interface_test0_0 = null;
+                l_guomi_interface_sm2_test0_0.finish();
+                f_guomi_interface_sm2_test0_0 = null;
                 f_blackhole1_1 = null;
             }
             res.allOps += res.measuredOps;
@@ -95,12 +95,12 @@ public final class Guomi_Interface_test_sm2VerifyTest_jmhTest {
             throw new IllegalStateException("Harness failed to distribute threads among groups properly");
     }
 
-    public void sm2VerifyTest_thrpt_jmhStub(InfraControl control, RawResults result, Guomi_Interface_test_jmhType l_guomi_interface_test0_0, Blackhole_jmhType l_blackhole1_1) throws Throwable {
+    public void sm2VerifyTest_thrpt_jmhStub(InfraControl control, RawResults result, Guomi_Interface_sm2_test_jmhType l_guomi_interface_sm2_test0_0, Blackhole_jmhType l_blackhole1_1) throws Throwable {
         long operations = 0;
         long realTime = 0;
         result.startTime = System.nanoTime();
         do {
-            l_guomi_interface_test0_0.sm2VerifyTest();
+            l_guomi_interface_sm2_test0_0.sm2VerifyTest();
             operations++;
         } while(!control.isDone);
         result.stopTime = System.nanoTime();
@@ -113,22 +113,22 @@ public final class Guomi_Interface_test_sm2VerifyTest_jmhTest {
         if (threadParams.getSubgroupIndex() == 0) {
             RawResults res = new RawResults();
             Blackhole_jmhType l_blackhole1_1 = _jmh_tryInit_f_blackhole1_1(control, threadParams);
-            Guomi_Interface_test_jmhType l_guomi_interface_test0_0 = _jmh_tryInit_f_guomi_interface_test0_0(control, threadParams);
+            Guomi_Interface_sm2_test_jmhType l_guomi_interface_sm2_test0_0 = _jmh_tryInit_f_guomi_interface_sm2_test0_0(control, threadParams);
 
             control.preSetup();
             l_blackhole1_1.clearSinks();
 
             control.announceWarmupReady();
             while (control.warmupShouldWait) {
-                l_guomi_interface_test0_0.sm2VerifyTest();
+                l_guomi_interface_sm2_test0_0.sm2VerifyTest();
                 res.allOps++;
             }
 
-            sm2VerifyTest_avgt_jmhStub(control, res, l_guomi_interface_test0_0, l_blackhole1_1);
+            sm2VerifyTest_avgt_jmhStub(control, res, l_guomi_interface_sm2_test0_0, l_blackhole1_1);
             control.announceWarmdownReady();
             try {
                 while (control.warmdownShouldWait) {
-                    l_guomi_interface_test0_0.sm2VerifyTest();
+                    l_guomi_interface_sm2_test0_0.sm2VerifyTest();
                     res.allOps++;
                 }
                 control.preTearDown();
@@ -137,8 +137,8 @@ public final class Guomi_Interface_test_sm2VerifyTest_jmhTest {
             }
 
             if (control.isLastIteration()) {
-                l_guomi_interface_test0_0.finish();
-                f_guomi_interface_test0_0 = null;
+                l_guomi_interface_sm2_test0_0.finish();
+                f_guomi_interface_sm2_test0_0 = null;
                 f_blackhole1_1 = null;
             }
             res.allOps += res.measuredOps;
@@ -155,12 +155,12 @@ public final class Guomi_Interface_test_sm2VerifyTest_jmhTest {
             throw new IllegalStateException("Harness failed to distribute threads among groups properly");
     }
 
-    public void sm2VerifyTest_avgt_jmhStub(InfraControl control, RawResults result, Guomi_Interface_test_jmhType l_guomi_interface_test0_0, Blackhole_jmhType l_blackhole1_1) throws Throwable {
+    public void sm2VerifyTest_avgt_jmhStub(InfraControl control, RawResults result, Guomi_Interface_sm2_test_jmhType l_guomi_interface_sm2_test0_0, Blackhole_jmhType l_blackhole1_1) throws Throwable {
         long operations = 0;
         long realTime = 0;
         result.startTime = System.nanoTime();
         do {
-            l_guomi_interface_test0_0.sm2VerifyTest();
+            l_guomi_interface_sm2_test0_0.sm2VerifyTest();
             operations++;
         } while(!control.isDone);
         result.stopTime = System.nanoTime();
@@ -173,14 +173,14 @@ public final class Guomi_Interface_test_sm2VerifyTest_jmhTest {
         if (threadParams.getSubgroupIndex() == 0) {
             RawResults res = new RawResults();
             Blackhole_jmhType l_blackhole1_1 = _jmh_tryInit_f_blackhole1_1(control, threadParams);
-            Guomi_Interface_test_jmhType l_guomi_interface_test0_0 = _jmh_tryInit_f_guomi_interface_test0_0(control, threadParams);
+            Guomi_Interface_sm2_test_jmhType l_guomi_interface_sm2_test0_0 = _jmh_tryInit_f_guomi_interface_sm2_test0_0(control, threadParams);
 
             control.preSetup();
             l_blackhole1_1.clearSinks();
 
             control.announceWarmupReady();
             while (control.warmupShouldWait) {
-                l_guomi_interface_test0_0.sm2VerifyTest();
+                l_guomi_interface_sm2_test0_0.sm2VerifyTest();
                 res.allOps++;
             }
 
@@ -188,11 +188,11 @@ public final class Guomi_Interface_test_sm2VerifyTest_jmhTest {
             int batchSize = control.iterationParams.getBatchSize();
             int opsPerInv = control.benchmarkParams.getOpsPerInvocation();
             SampleBuffer buffer = new SampleBuffer();
-            sm2VerifyTest_sample_jmhStub(control, res, buffer, targetSamples, opsPerInv, batchSize, l_guomi_interface_test0_0, l_blackhole1_1);
+            sm2VerifyTest_sample_jmhStub(control, res, buffer, targetSamples, opsPerInv, batchSize, l_guomi_interface_sm2_test0_0, l_blackhole1_1);
             control.announceWarmdownReady();
             try {
                 while (control.warmdownShouldWait) {
-                    l_guomi_interface_test0_0.sm2VerifyTest();
+                    l_guomi_interface_sm2_test0_0.sm2VerifyTest();
                     res.allOps++;
                 }
                 control.preTearDown();
@@ -201,8 +201,8 @@ public final class Guomi_Interface_test_sm2VerifyTest_jmhTest {
             }
 
             if (control.isLastIteration()) {
-                l_guomi_interface_test0_0.finish();
-                f_guomi_interface_test0_0 = null;
+                l_guomi_interface_sm2_test0_0.finish();
+                f_guomi_interface_sm2_test0_0 = null;
                 f_blackhole1_1 = null;
             }
             res.allOps += res.measuredOps * batchSize;
@@ -216,7 +216,7 @@ public final class Guomi_Interface_test_sm2VerifyTest_jmhTest {
             throw new IllegalStateException("Harness failed to distribute threads among groups properly");
     }
 
-    public void sm2VerifyTest_sample_jmhStub(InfraControl control, RawResults result, SampleBuffer buffer, int targetSamples, long opsPerInv, int batchSize, Guomi_Interface_test_jmhType l_guomi_interface_test0_0, Blackhole_jmhType l_blackhole1_1) throws Throwable {
+    public void sm2VerifyTest_sample_jmhStub(InfraControl control, RawResults result, SampleBuffer buffer, int targetSamples, long opsPerInv, int batchSize, Guomi_Interface_sm2_test_jmhType l_guomi_interface_sm2_test0_0, Blackhole_jmhType l_blackhole1_1) throws Throwable {
         long realTime = 0;
         long operations = 0;
         int rnd = (int)System.nanoTime();
@@ -231,7 +231,7 @@ public final class Guomi_Interface_test_sm2VerifyTest_jmhTest {
             }
             for (int b = 0; b < batchSize; b++) {
                 if (control.volatileSpoiler) return;
-                l_guomi_interface_test0_0.sm2VerifyTest();
+                l_guomi_interface_sm2_test0_0.sm2VerifyTest();
             }
             if (sample) {
                 buffer.add((System.nanoTime() - time) / opsPerInv);
@@ -252,19 +252,19 @@ public final class Guomi_Interface_test_sm2VerifyTest_jmhTest {
     public BenchmarkTaskResult sm2VerifyTest_SingleShotTime(InfraControl control, ThreadParams threadParams) throws Throwable {
         if (threadParams.getSubgroupIndex() == 0) {
             Blackhole_jmhType l_blackhole1_1 = _jmh_tryInit_f_blackhole1_1(control, threadParams);
-            Guomi_Interface_test_jmhType l_guomi_interface_test0_0 = _jmh_tryInit_f_guomi_interface_test0_0(control, threadParams);
+            Guomi_Interface_sm2_test_jmhType l_guomi_interface_sm2_test0_0 = _jmh_tryInit_f_guomi_interface_sm2_test0_0(control, threadParams);
 
             control.preSetup();
             l_blackhole1_1.clearSinks();
 
             RawResults res = new RawResults();
             int batchSize = control.iterationParams.getBatchSize();
-            sm2VerifyTest_ss_jmhStub(control, batchSize, res, l_guomi_interface_test0_0, l_blackhole1_1);
+            sm2VerifyTest_ss_jmhStub(control, batchSize, res, l_guomi_interface_sm2_test0_0, l_blackhole1_1);
             control.preTearDown();
 
             if (control.isLastIteration()) {
-                l_guomi_interface_test0_0.finish();
-                f_guomi_interface_test0_0 = null;
+                l_guomi_interface_sm2_test0_0.finish();
+                f_guomi_interface_sm2_test0_0 = null;
                 f_blackhole1_1 = null;
             }
             int opsPerInv = control.benchmarkParams.getOpsPerInvocation();
@@ -276,12 +276,12 @@ public final class Guomi_Interface_test_sm2VerifyTest_jmhTest {
             throw new IllegalStateException("Harness failed to distribute threads among groups properly");
     }
 
-    public void sm2VerifyTest_ss_jmhStub(InfraControl control, int batchSize, RawResults result, Guomi_Interface_test_jmhType l_guomi_interface_test0_0, Blackhole_jmhType l_blackhole1_1) throws Throwable {
+    public void sm2VerifyTest_ss_jmhStub(InfraControl control, int batchSize, RawResults result, Guomi_Interface_sm2_test_jmhType l_guomi_interface_sm2_test0_0, Blackhole_jmhType l_blackhole1_1) throws Throwable {
         long realTime = 0;
         result.startTime = System.nanoTime();
         for (int b = 0; b < batchSize; b++) {
             if (control.volatileSpoiler) return;
-            l_guomi_interface_test0_0.sm2VerifyTest();
+            l_guomi_interface_sm2_test0_0.sm2VerifyTest();
         }
         result.stopTime = System.nanoTime();
         result.realTime = realTime;
@@ -299,21 +299,18 @@ public final class Guomi_Interface_test_sm2VerifyTest_jmhTest {
         return val;
     }
     
-    Guomi_Interface_test_jmhType f_guomi_interface_test0_0;
+    Guomi_Interface_sm2_test_jmhType f_guomi_interface_sm2_test0_0;
     
-    Guomi_Interface_test_jmhType _jmh_tryInit_f_guomi_interface_test0_0(InfraControl control, ThreadParams threadParams) throws Throwable {
-        Guomi_Interface_test_jmhType val = f_guomi_interface_test0_0;
+    Guomi_Interface_sm2_test_jmhType _jmh_tryInit_f_guomi_interface_sm2_test0_0(InfraControl control, ThreadParams threadParams) throws Throwable {
+        Guomi_Interface_sm2_test_jmhType val = f_guomi_interface_sm2_test0_0;
         if (val == null) {
-            val = new Guomi_Interface_test_jmhType();
+            val = new Guomi_Interface_sm2_test_jmhType();
                 Field f;
-                f = GuomiJava.Guomi_Interface_test.class.getDeclaredField("msg_size");
+                f = GuomiJava.Guomi_Interface_sm2_test.class.getDeclaredField("msg_size");
                 f.setAccessible(true);
                 f.set(val, Integer.valueOf(control.getParam("msg_size")));
-                f = GuomiJava.Guomi_Interface_test.class.getDeclaredField("plain_size");
-                f.setAccessible(true);
-                f.set(val, Integer.valueOf(control.getParam("plain_size")));
             val.init();
-            f_guomi_interface_test0_0 = val;
+            f_guomi_interface_sm2_test0_0 = val;
         }
         return val;
     }

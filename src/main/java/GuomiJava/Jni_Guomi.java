@@ -1,4 +1,5 @@
 package GuomiJava;
+
 public class Jni_Guomi {
 
     public native void sm2GenerateKey(byte[] Pub_X, byte[] Pub_Y, byte[] Pri_key);
@@ -7,9 +8,5 @@ public class Jni_Guomi {
     public native byte[] sm3Hash(byte[] msg, int length);
     public native byte[] sm4CBCEnc(byte[] msg, int msg_length, byte[] key, byte[] iv);
     public native byte[] sm4CBCDec(byte[] cypher, int cypher_length, byte[] key, byte[] iv);
-
-    public static void main(String[] args) {
-
-    }
 
 }
