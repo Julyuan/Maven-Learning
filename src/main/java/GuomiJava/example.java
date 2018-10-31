@@ -7,6 +7,7 @@ import static GuomiJava.Guomi_Interface.*;
 public class example {
     public static void test(){
         /*       test sm2          */
+        System.out.println(System.getProperty("java.library.path"));
         System.out.println("以下是SM2算法的例子");
         PriKey Pri_Key = cryptoSM2GetKey();
         byte[] msg = cryptoRandomBytes(59);

@@ -18,7 +18,7 @@
             <configuration>
               <transformers>
                 <transformer>
-                  <mainClass>GuomiJava.Guomi_Interface</mainClass>
+                  <mainClass>GuomiJava.Guomi_Interface_sm3_test</mainClass>
                 </transformer>
               </transformers>
             </configuration>

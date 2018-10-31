@@ -1,0 +1,771 @@
+# JMH 1.12 (released 943 days ago, please consider updating!)
+# VM version: JDK 1.8.0_191, VM 25.191-b12
+# VM invoker: /usr/lib/jvm/java-8-oracle/jre/bin/java
+# VM options: <none>
+# Warmup: 10 iterations, 1 s each
+# Measurement: 10 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Throughput, ops/time
+# Benchmark: GuomiJava.Guomi_Interface_sm3_test.sm3HashTest
+# Parameters: (msg_size = 0)
+
+# Run progress: 0.00% complete, ETA 00:06:20
+# Fork: 1 of 1
+# Warmup Iteration   1: 1001183.775 ops/s
+# Warmup Iteration   2: 987673.766 ops/s
+# Warmup Iteration   3: 932061.194 ops/s
+# Warmup Iteration   4: 945605.802 ops/s
+# Warmup Iteration   5: 953881.518 ops/s
+# Warmup Iteration   6: 939463.691 ops/s
+# Warmup Iteration   7: 944921.173 ops/s
+# Warmup Iteration   8: 954931.194 ops/s
+# Warmup Iteration   9: 925623.631 ops/s
+# Warmup Iteration  10: 926513.533 ops/s
+Iteration   1: 859767.232 ops/s
+Iteration   2: 954226.574 ops/s
+Iteration   3: 926599.140 ops/s
+Iteration   4: 864209.326 ops/s
+Iteration   5: 872925.655 ops/s
+Iteration   6: 810564.071 ops/s
+Iteration   7: <forked VM failed with exit code 137>
+<stdout last='20 lines'>
+</stdout>
+<stderr last='20 lines'>
+</stderr>
+
+# JMH 1.12 (released 943 days ago, please consider updating!)
+# VM version: JDK 1.8.0_191, VM 25.191-b12
+# VM invoker: /usr/lib/jvm/java-8-oracle/jre/bin/java
+# VM options: <none>
+# Warmup: 10 iterations, 1 s each
+# Measurement: 10 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Throughput, ops/time
+# Benchmark: GuomiJava.Guomi_Interface_sm3_test.sm3HashTest
+# Parameters: (msg_size = 1)
+
+# Run progress: 0.00% complete, ETA 00:06:20
+# Fork: 1 of 1
+# Warmup Iteration   1: 916440.035 ops/s
+# Warmup Iteration   2: 934876.207 ops/s
+# Warmup Iteration   3: 946551.544 ops/s
+# Warmup Iteration   4: 956438.507 ops/s
+# Warmup Iteration   5: 975686.180 ops/s
+# Warmup Iteration   6: 925936.550 ops/s
+# Warmup Iteration   7: 913368.593 ops/s
+# Warmup Iteration   8: 962621.134 ops/s
+# Warmup Iteration   9: 960778.782 ops/s
+# Warmup Iteration  10: 969351.058 ops/s
+Iteration   1: 926777.537 ops/s
+Iteration   2: 955979.299 ops/s
+Iteration   3: 708046.863 ops/s
+Iteration   4: 921157.106 ops/s
+Iteration   5: 908042.595 ops/s
+Iteration   6: 917431.456 ops/s
+Iteration   7: 307986.478 ops/s
+Iteration   8: <forked VM failed with exit code 137>
+<stdout last='20 lines'>
+</stdout>
+<stderr last='20 lines'>
+</stderr>
+
+# JMH 1.12 (released 943 days ago, please consider updating!)
+# VM version: JDK 1.8.0_191, VM 25.191-b12
+# VM invoker: /usr/lib/jvm/java-8-oracle/jre/bin/java
+# VM options: <none>
+# Warmup: 10 iterations, 1 s each
+# Measurement: 10 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Throughput, ops/time
+# Benchmark: GuomiJava.Guomi_Interface_sm3_test.sm3HashTest
+# Parameters: (msg_size = 2)
+
+# Run progress: 0.00% complete, ETA 00:06:20
+# Fork: 1 of 1
+# Warmup Iteration   1: 928699.551 ops/s
+# Warmup Iteration   2: 924127.005 ops/s
+# Warmup Iteration   3: 926237.634 ops/s
+# Warmup Iteration   4: 946529.004 ops/s
+# Warmup Iteration   5: 857489.652 ops/s
+# Warmup Iteration   6: 951423.087 ops/s
+# Warmup Iteration   7: 948414.635 ops/s
+# Warmup Iteration   8: 955471.685 ops/s
+# Warmup Iteration   9: 941073.213 ops/s
+# Warmup Iteration  10: 946073.473 ops/s
+Iteration   1: 953361.851 ops/s
+Iteration   2: 960436.386 ops/s
+Iteration   3: 891864.763 ops/s
+Iteration   4: 923389.763 ops/s
+Iteration   5: 923565.945 ops/s
+Iteration   6: 753294.286 ops/s
+Iteration   7: <forked VM failed with exit code 137>
+<stdout last='20 lines'>
+</stdout>
+<stderr last='20 lines'>
+</stderr>
+
+# JMH 1.12 (released 943 days ago, please consider updating!)
+# VM version: JDK 1.8.0_191, VM 25.191-b12
+# VM invoker: /usr/lib/jvm/java-8-oracle/jre/bin/java
+# VM options: <none>
+# Warmup: 10 iterations, 1 s each
+# Measurement: 10 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Throughput, ops/time
+# Benchmark: GuomiJava.Guomi_Interface_sm3_test.sm3HashTest
+# Parameters: (msg_size = 3)
+
+# Run progress: 0.00% complete, ETA 00:06:20
+# Fork: 1 of 1
+# Warmup Iteration   1: 944782.994 ops/s
+# Warmup Iteration   2: 970047.354 ops/s
+# Warmup Iteration   3: 968685.102 ops/s
+# Warmup Iteration   4: 977067.727 ops/s
+# Warmup Iteration   5: 971935.971 ops/s
+# Warmup Iteration   6: 962802.453 ops/s
+# Warmup Iteration   7: 924374.824 ops/s
+# Warmup Iteration   8: 952483.886 ops/s
+# Warmup Iteration   9: 954752.936 ops/s
+# Warmup Iteration  10: 957308.099 ops/s
+Iteration   1: 936838.265 ops/s
+Iteration   2: 976851.737 ops/s
+Iteration   3: 978917.373 ops/s
+Iteration   4: 976491.971 ops/s
+Iteration   5: 962086.885 ops/s
+Iteration   6: 577587.271 ops/s
+Iteration   7: <forked VM failed with exit code 137>
+<stdout last='20 lines'>
+</stdout>
+<stderr last='20 lines'>
+</stderr>
+
+# JMH 1.12 (released 943 days ago, please consider updating!)
+# VM version: JDK 1.8.0_191, VM 25.191-b12
+# VM invoker: /usr/lib/jvm/java-8-oracle/jre/bin/java
+# VM options: <none>
+# Warmup: 10 iterations, 1 s each
+# Measurement: 10 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Throughput, ops/time
+# Benchmark: GuomiJava.Guomi_Interface_sm3_test.sm3HashTest
+# Parameters: (msg_size = 4)
+
+# Run progress: 0.00% complete, ETA 00:06:20
+# Fork: 1 of 1
+# Warmup Iteration   1: 926095.989 ops/s
+# Warmup Iteration   2: 980544.377 ops/s
+# Warmup Iteration   3: 973239.732 ops/s
+# Warmup Iteration   4: 981294.674 ops/s
+# Warmup Iteration   5: 983004.777 ops/s
+# Warmup Iteration   6: 988753.949 ops/s
+# Warmup Iteration   7: 985277.405 ops/s
+# Warmup Iteration   8: 986829.881 ops/s
+# Warmup Iteration   9: 985483.386 ops/s
+# Warmup Iteration  10: 980566.447 ops/s
+Iteration   1: 979766.764 ops/s
+Iteration   2: 977133.249 ops/s
+Iteration   3: 995066.519 ops/s
+Iteration   4: 995324.712 ops/s
+Iteration   5: 954776.090 ops/s
+Iteration   6: 355783.863 ops/s
+Iteration   7: <forked VM failed with exit code 137>
+<stdout last='20 lines'>
+</stdout>
+<stderr last='20 lines'>
+</stderr>
+
+# JMH 1.12 (released 943 days ago, please consider updating!)
+# VM version: JDK 1.8.0_191, VM 25.191-b12
+# VM invoker: /usr/lib/jvm/java-8-oracle/jre/bin/java
+# VM options: <none>
+# Warmup: 10 iterations, 1 s each
+# Measurement: 10 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Throughput, ops/time
+# Benchmark: GuomiJava.Guomi_Interface_sm3_test.sm3HashTest
+# Parameters: (msg_size = 5)
+
+# Run progress: 0.00% complete, ETA 00:06:20
+# Fork: 1 of 1
+# Warmup Iteration   1: 942377.471 ops/s
+# Warmup Iteration   2: 942514.083 ops/s
+# Warmup Iteration   3: 964725.300 ops/s
+# Warmup Iteration   4: 969570.097 ops/s
+# Warmup Iteration   5: 990677.040 ops/s
+# Warmup Iteration   6: 985640.011 ops/s
+# Warmup Iteration   7: 970265.678 ops/s
+# Warmup Iteration   8: 979490.168 ops/s
+# Warmup Iteration   9: 984854.718 ops/s
+# Warmup Iteration  10: 983046.861 ops/s
+Iteration   1: 963875.942 ops/s
+Iteration   2: 975189.122 ops/s
+Iteration   3: 978266.208 ops/s
+Iteration   4: 975491.028 ops/s
+Iteration   5: 954815.922 ops/s
+Iteration   6: <forked VM failed with exit code 137>
+<stdout last='20 lines'>
+</stdout>
+<stderr last='20 lines'>
+</stderr>
+
+# JMH 1.12 (released 943 days ago, please consider updating!)
+# VM version: JDK 1.8.0_191, VM 25.191-b12
+# VM invoker: /usr/lib/jvm/java-8-oracle/jre/bin/java
+# VM options: <none>
+# Warmup: 10 iterations, 1 s each
+# Measurement: 10 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Throughput, ops/time
+# Benchmark: GuomiJava.Guomi_Interface_sm3_test.sm3HashTest
+# Parameters: (msg_size = 6)
+
+# Run progress: 0.00% complete, ETA 00:06:20
+# Fork: 1 of 1
+# Warmup Iteration   1: 957813.355 ops/s
+# Warmup Iteration   2: 959687.950 ops/s
+# Warmup Iteration   3: 982658.315 ops/s
+# Warmup Iteration   4: 972963.418 ops/s
+# Warmup Iteration   5: 962167.326 ops/s
+# Warmup Iteration   6: 955316.419 ops/s
+# Warmup Iteration   7: 966833.040 ops/s
+# Warmup Iteration   8: 978153.529 ops/s
+# Warmup Iteration   9: 977389.548 ops/s
+# Warmup Iteration  10: 963072.757 ops/s
+Iteration   1: 974420.847 ops/s
+Iteration   2: 987712.618 ops/s
+Iteration   3: 993995.628 ops/s
+Iteration   4: 985133.602 ops/s
+Iteration   5: 975884.959 ops/s
+Iteration   6: 357611.828 ops/s
+Iteration   7: <forked VM failed with exit code 137>
+<stdout last='20 lines'>
+</stdout>
+<stderr last='20 lines'>
+</stderr>
+
+# JMH 1.12 (released 943 days ago, please consider updating!)
+# VM version: JDK 1.8.0_191, VM 25.191-b12
+# VM invoker: /usr/lib/jvm/java-8-oracle/jre/bin/java
+# VM options: <none>
+# Warmup: 10 iterations, 1 s each
+# Measurement: 10 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Throughput, ops/time
+# Benchmark: GuomiJava.Guomi_Interface_sm3_test.sm3HashTest
+# Parameters: (msg_size = 7)
+
+# Run progress: 0.00% complete, ETA 00:06:20
+# Fork: 1 of 1
+# Warmup Iteration   1: 518825.055 ops/s
+# Warmup Iteration   2: 540290.994 ops/s
+# Warmup Iteration   3: 541353.950 ops/s
+# Warmup Iteration   4: 531523.272 ops/s
+# Warmup Iteration   5: 532895.955 ops/s
+# Warmup Iteration   6: 512150.583 ops/s
+# Warmup Iteration   7: 484843.975 ops/s
+# Warmup Iteration   8: 518142.610 ops/s
+# Warmup Iteration   9: 514200.918 ops/s
+# Warmup Iteration  10: 504709.958 ops/s
+Iteration   1: 511152.027 ops/s
+Iteration   2: 518990.907 ops/s
+Iteration   3: 523802.202 ops/s
+Iteration   4: 524551.401 ops/s
+Iteration   5: 533061.322 ops/s
+Iteration   6: 529010.946 ops/s
+Iteration   7: 531025.311 ops/s
+Iteration   8: 531255.071 ops/s
+Iteration   9: 530700.015 ops/s
+Iteration  10: 508617.301 ops/s
+
+
+Result "sm3HashTest":
+  524216.650 ±(99.9%) 13148.823 ops/s [Average]
+  (min, avg, max) = (508617.301, 524216.650, 533061.322), stdev = 8697.133
+  CI (99.9%): [511067.827, 537365.474] (assumes normal distribution)
+
+
+# JMH 1.12 (released 943 days ago, please consider updating!)
+# VM version: JDK 1.8.0_191, VM 25.191-b12
+# VM invoker: /usr/lib/jvm/java-8-oracle/jre/bin/java
+# VM options: <none>
+# Warmup: 10 iterations, 1 s each
+# Measurement: 10 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Throughput, ops/time
+# Benchmark: GuomiJava.Guomi_Interface_sm3_test.sm3HashTest
+# Parameters: (msg_size = 8)
+
+# Run progress: 5.26% complete, ETA 00:42:32
+# Fork: 1 of 1
+# Warmup Iteration   1: 521998.549 ops/s
+# Warmup Iteration   2: 518211.154 ops/s
+# Warmup Iteration   3: 505529.719 ops/s
+# Warmup Iteration   4: 504828.989 ops/s
+# Warmup Iteration   5: 517086.765 ops/s
+# Warmup Iteration   6: 451666.164 ops/s
+# Warmup Iteration   7: 510704.527 ops/s
+# Warmup Iteration   8: 482602.588 ops/s
+# Warmup Iteration   9: 509198.913 ops/s
+# Warmup Iteration  10: 535858.567 ops/s
+Iteration   1: 531333.279 ops/s
+Iteration   2: 529257.423 ops/s
+Iteration   3: 528621.369 ops/s
+Iteration   4: 529904.492 ops/s
+Iteration   5: 529776.756 ops/s
+Iteration   6: 526984.979 ops/s
+Iteration   7: 523966.417 ops/s
+Iteration   8: 525562.251 ops/s
+Iteration   9: 502316.617 ops/s
+Iteration  10: 514763.171 ops/s
+
+
+Result "sm3HashTest":
+  524248.675 ±(99.9%) 13683.307 ops/s [Average]
+  (min, avg, max) = (502316.617, 524248.675, 531333.279), stdev = 9050.660
+  CI (99.9%): [510565.369, 537931.982] (assumes normal distribution)
+
+
+# JMH 1.12 (released 943 days ago, please consider updating!)
+# VM version: JDK 1.8.0_191, VM 25.191-b12
+# VM invoker: /usr/lib/jvm/java-8-oracle/jre/bin/java
+# VM options: <none>
+# Warmup: 10 iterations, 1 s each
+# Measurement: 10 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Throughput, ops/time
+# Benchmark: GuomiJava.Guomi_Interface_sm3_test.sm3HashTest
+# Parameters: (msg_size = 9)
+
+# Run progress: 10.53% complete, ETA 00:22:58
+# Fork: 1 of 1
+# Warmup Iteration   1: 354287.804 ops/s
+# Warmup Iteration   2: 352036.964 ops/s
+# Warmup Iteration   3: 361421.246 ops/s
+# Warmup Iteration   4: 362980.203 ops/s
+# Warmup Iteration   5: 355978.439 ops/s
+# Warmup Iteration   6: 352685.949 ops/s
+# Warmup Iteration   7: 351412.944 ops/s
+# Warmup Iteration   8: 355372.134 ops/s
+# Warmup Iteration   9: 359826.802 ops/s
+# Warmup Iteration  10: 356682.064 ops/s
+Iteration   1: 354915.174 ops/s
+Iteration   2: 353044.422 ops/s
+Iteration   3: 358074.276 ops/s
+Iteration   4: 369138.488 ops/s
+Iteration   5: 373062.248 ops/s
+Iteration   6: 365643.074 ops/s
+Iteration   7: 374768.402 ops/s
+Iteration   8: 370074.299 ops/s
+Iteration   9: 375243.929 ops/s
+Iteration  10: 374491.595 ops/s
+
+
+Result "sm3HashTest":
+  366845.591 ±(99.9%) 12920.089 ops/s [Average]
+  (min, avg, max) = (353044.422, 366845.591, 375243.929), stdev = 8545.839
+  CI (99.9%): [353925.502, 379765.680] (assumes normal distribution)
+
+
+# JMH 1.12 (released 943 days ago, please consider updating!)
+# VM version: JDK 1.8.0_191, VM 25.191-b12
+# VM invoker: /usr/lib/jvm/java-8-oracle/jre/bin/java
+# VM options: <none>
+# Warmup: 10 iterations, 1 s each
+# Measurement: 10 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Throughput, ops/time
+# Benchmark: GuomiJava.Guomi_Interface_sm3_test.sm3HashTest
+# Parameters: (msg_size = 10)
+
+# Run progress: 15.79% complete, ETA 00:16:14
+# Fork: 1 of 1
+# Warmup Iteration   1: 282440.254 ops/s
+# Warmup Iteration   2: 285573.597 ops/s
+# Warmup Iteration   3: 283465.016 ops/s
+# Warmup Iteration   4: 270133.961 ops/s
+# Warmup Iteration   5: 267230.100 ops/s
+# Warmup Iteration   6: 263272.097 ops/s
+# Warmup Iteration   7: 271215.121 ops/s
+# Warmup Iteration   8: 267610.278 ops/s
+# Warmup Iteration   9: 273493.957 ops/s
+# Warmup Iteration  10: 276747.699 ops/s
+Iteration   1: 276966.481 ops/s
+Iteration   2: 281071.038 ops/s
+Iteration   3: 266758.422 ops/s
+Iteration   4: 268435.756 ops/s
+Iteration   5: 265989.234 ops/s
+Iteration   6: 265920.156 ops/s
+Iteration   7: 266039.157 ops/s
+Iteration   8: 276400.267 ops/s
+Iteration   9: 278633.900 ops/s
+Iteration  10: 273300.248 ops/s
+
+
+Result "sm3HashTest":
+  271951.466 ±(99.9%) 9026.113 ops/s [Average]
+  (min, avg, max) = (265920.156, 271951.466, 281071.038), stdev = 5970.215
+  CI (99.9%): [262925.353, 280977.579] (assumes normal distribution)
+
+
+# JMH 1.12 (released 943 days ago, please consider updating!)
+# VM version: JDK 1.8.0_191, VM 25.191-b12
+# VM invoker: /usr/lib/jvm/java-8-oracle/jre/bin/java
+# VM options: <none>
+# Warmup: 10 iterations, 1 s each
+# Measurement: 10 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Throughput, ops/time
+# Benchmark: GuomiJava.Guomi_Interface_sm3_test.sm3HashTest
+# Parameters: (msg_size = 11)
+
+# Run progress: 21.05% complete, ETA 00:12:41
+# Fork: 1 of 1
+# Warmup Iteration   1: 215078.631 ops/s
+# Warmup Iteration   2: 215840.676 ops/s
+# Warmup Iteration   3: 218574.302 ops/s
+# Warmup Iteration   4: 216948.489 ops/s
+# Warmup Iteration   5: 218366.653 ops/s
+# Warmup Iteration   6: 216074.178 ops/s
+# Warmup Iteration   7: 211009.677 ops/s
+# Warmup Iteration   8: 217881.330 ops/s
+# Warmup Iteration   9: 222636.508 ops/s
+# Warmup Iteration  10: 216739.554 ops/s
+Iteration   1: 219170.077 ops/s
+Iteration   2: 219861.377 ops/s
+Iteration   3: 219750.687 ops/s
+Iteration   4: 222816.876 ops/s
+Iteration   5: 224319.177 ops/s
+Iteration   6: 216457.134 ops/s
+Iteration   7: 221528.647 ops/s
+Iteration   8: 222527.406 ops/s
+Iteration   9: 223858.799 ops/s
+Iteration  10: 219407.824 ops/s
+
+
+Result "sm3HashTest":
+  220969.801 ±(99.9%) 3719.447 ops/s [Average]
+  (min, avg, max) = (216457.134, 220969.801, 224319.177), stdev = 2460.184
+  CI (99.9%): [217250.354, 224689.248] (assumes normal distribution)
+
+
+# JMH 1.12 (released 943 days ago, please consider updating!)
+# VM version: JDK 1.8.0_191, VM 25.191-b12
+# VM invoker: /usr/lib/jvm/java-8-oracle/jre/bin/java
+# VM options: <none>
+# Warmup: 10 iterations, 1 s each
+# Measurement: 10 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Throughput, ops/time
+# Benchmark: GuomiJava.Guomi_Interface_sm3_test.sm3HashTest
+# Parameters: (msg_size = 12)
+
+# Run progress: 26.32% complete, ETA 00:10:25
+# Fork: 1 of 1
+# Warmup Iteration   1: 156487.526 ops/s
+# Warmup Iteration   2: 156888.917 ops/s
+# Warmup Iteration   3: 156038.318 ops/s
+# Warmup Iteration   4: 159241.330 ops/s
+# Warmup Iteration   5: 158073.468 ops/s
+# Warmup Iteration   6: 161325.367 ops/s
+# Warmup Iteration   7: 161976.442 ops/s
+# Warmup Iteration   8: 162775.633 ops/s
+# Warmup Iteration   9: 162224.146 ops/s
+# Warmup Iteration  10: 162914.897 ops/s
+Iteration   1: 161599.217 ops/s
+Iteration   2: 161620.524 ops/s
+Iteration   3: 164273.887 ops/s
+Iteration   4: 163422.665 ops/s
+Iteration   5: 161978.952 ops/s
+Iteration   6: 159766.492 ops/s
+Iteration   7: 147373.224 ops/s
+Iteration   8: 158123.888 ops/s
+Iteration   9: 155208.042 ops/s
+Iteration  10: 153717.812 ops/s
+
+
+Result "sm3HashTest":
+  158708.470 ±(99.9%) 7933.669 ops/s [Average]
+  (min, avg, max) = (147373.224, 158708.470, 164273.887), stdev = 5247.631
+  CI (99.9%): [150774.801, 166642.139] (assumes normal distribution)
+
+
+# JMH 1.12 (released 943 days ago, please consider updating!)
+# VM version: JDK 1.8.0_191, VM 25.191-b12
+# VM invoker: /usr/lib/jvm/java-8-oracle/jre/bin/java
+# VM options: <none>
+# Warmup: 10 iterations, 1 s each
+# Measurement: 10 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Throughput, ops/time
+# Benchmark: GuomiJava.Guomi_Interface_sm3_test.sm3HashTest
+# Parameters: (msg_size = 13)
+
+# Run progress: 31.58% complete, ETA 00:08:47
+# Fork: 1 of 1
+# Warmup Iteration   1: 100830.650 ops/s
+# Warmup Iteration   2: 102035.808 ops/s
+# Warmup Iteration   3: 102219.677 ops/s
+# Warmup Iteration   4: 97682.129 ops/s
+# Warmup Iteration   5: 100983.073 ops/s
+# Warmup Iteration   6: 99402.143 ops/s
+# Warmup Iteration   7: 102344.118 ops/s
+# Warmup Iteration   8: 100235.556 ops/s
+# Warmup Iteration   9: 100168.656 ops/s
+# Warmup Iteration  10: 102809.790 ops/s
+Iteration   1: 101501.937 ops/s
+Iteration   2: 102899.218 ops/s
+Iteration   3: 102108.828 ops/s
+Iteration   4: 105020.781 ops/s
+Iteration   5: 103133.867 ops/s
+Iteration   6: 103580.505 ops/s
+Iteration   7: 104862.182 ops/s
+Iteration   8: 104808.845 ops/s
+Iteration   9: 104124.152 ops/s
+Iteration  10: 101500.267 ops/s
+
+
+Result "sm3HashTest":
+  103354.058 ±(99.9%) 2046.195 ops/s [Average]
+  (min, avg, max) = (101500.267, 103354.058, 105020.781), stdev = 1353.431
+  CI (99.9%): [101307.864, 105400.253] (assumes normal distribution)
+
+
+# JMH 1.12 (released 943 days ago, please consider updating!)
+# VM version: JDK 1.8.0_191, VM 25.191-b12
+# VM invoker: /usr/lib/jvm/java-8-oracle/jre/bin/java
+# VM options: <none>
+# Warmup: 10 iterations, 1 s each
+# Measurement: 10 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Throughput, ops/time
+# Benchmark: GuomiJava.Guomi_Interface_sm3_test.sm3HashTest
+# Parameters: (msg_size = 14)
+
+# Run progress: 36.84% complete, ETA 00:07:32
+# Fork: 1 of 1
+# Warmup Iteration   1: 66554.404 ops/s
+# Warmup Iteration   2: 66359.119 ops/s
+# Warmup Iteration   3: 66042.126 ops/s
+# Warmup Iteration   4: 65737.727 ops/s
+# Warmup Iteration   5: 68002.631 ops/s
+# Warmup Iteration   6: 69494.844 ops/s
+# Warmup Iteration   7: 70553.516 ops/s
+# Warmup Iteration   8: 70219.062 ops/s
+# Warmup Iteration   9: 69714.918 ops/s
+# Warmup Iteration  10: 70329.634 ops/s
+Iteration   1: 70056.521 ops/s
+Iteration   2: 65792.062 ops/s
+Iteration   3: 69931.534 ops/s
+Iteration   4: 68917.333 ops/s
+Iteration   5: 69191.563 ops/s
+Iteration   6: 69771.664 ops/s
+Iteration   7: 70686.486 ops/s
+Iteration   8: 69790.469 ops/s
+Iteration   9: 71829.599 ops/s
+Iteration  10: 72516.314 ops/s
+
+
+Result "sm3HashTest":
+  69848.355 ±(99.9%) 2739.804 ops/s [Average]
+  (min, avg, max) = (65792.062, 69848.355, 72516.314), stdev = 1812.211
+  CI (99.9%): [67108.551, 72588.159] (assumes normal distribution)
+
+
+# JMH 1.12 (released 943 days ago, please consider updating!)
+# VM version: JDK 1.8.0_191, VM 25.191-b12
+# VM invoker: /usr/lib/jvm/java-8-oracle/jre/bin/java
+# VM options: <none>
+# Warmup: 10 iterations, 1 s each
+# Measurement: 10 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Throughput, ops/time
+# Benchmark: GuomiJava.Guomi_Interface_sm3_test.sm3HashTest
+# Parameters: (msg_size = 15)
+
+# Run progress: 42.11% complete, ETA 00:06:30
+# Fork: 1 of 1
+# Warmup Iteration   1: 48145.534 ops/s
+# Warmup Iteration   2: 48351.737 ops/s
+# Warmup Iteration   3: 48454.612 ops/s
+# Warmup Iteration   4: 49555.167 ops/s
+# Warmup Iteration   5: 49135.835 ops/s
+# Warmup Iteration   6: 48934.421 ops/s
+# Warmup Iteration   7: 48734.614 ops/s
+# Warmup Iteration   8: 49318.804 ops/s
+# Warmup Iteration   9: 48469.178 ops/s
+# Warmup Iteration  10: 47378.992 ops/s
+Iteration   1: 47892.637 ops/s
+Iteration   2: 46826.845 ops/s
+Iteration   3: 47813.643 ops/s
+Iteration   4: 50333.250 ops/s
+Iteration   5: 48912.594 ops/s
+Iteration   6: 48225.324 ops/s
+Iteration   7: 48893.874 ops/s
+Iteration   8: 49035.508 ops/s
+Iteration   9: 50014.331 ops/s
+Iteration  10: 49411.422 ops/s
+
+
+Result "sm3HashTest":
+  48735.943 ±(99.9%) 1613.830 ops/s [Average]
+  (min, avg, max) = (46826.845, 48735.943, 50333.250), stdev = 1067.448
+  CI (99.9%): [47122.113, 50349.772] (assumes normal distribution)
+
+
+# JMH 1.12 (released 943 days ago, please consider updating!)
+# VM version: JDK 1.8.0_191, VM 25.191-b12
+# VM invoker: /usr/lib/jvm/java-8-oracle/jre/bin/java
+# VM options: <none>
+# Warmup: 10 iterations, 1 s each
+# Measurement: 10 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Throughput, ops/time
+# Benchmark: GuomiJava.Guomi_Interface_sm3_test.sm3HashTest
+# Parameters: (msg_size = 16)
+
+# Run progress: 47.37% complete, ETA 00:05:38
+# Fork: 1 of 1
+# Warmup Iteration   1: 33620.930 ops/s
+# Warmup Iteration   2: 33610.588 ops/s
+# Warmup Iteration   3: 33080.562 ops/s
+# Warmup Iteration   4: 33041.697 ops/s
+# Warmup Iteration   5: 31804.930 ops/s
+# Warmup Iteration   6: 33111.193 ops/s
+# Warmup Iteration   7: 32320.228 ops/s
+# Warmup Iteration   8: 32753.586 ops/s
+# Warmup Iteration   9: 33443.919 ops/s
+# Warmup Iteration  10: 33491.060 ops/s
+Iteration   1: 33967.335 ops/s
+Iteration   2: 33899.398 ops/s
+Iteration   3: 33354.977 ops/s
+Iteration   4: 33525.836 ops/s
+Iteration   5: 33080.727 ops/s
+Iteration   6: 33430.115 ops/s
+Iteration   7: 33505.833 ops/s
+Iteration   8: 32414.691 ops/s
+Iteration   9: 33688.325 ops/s
+Iteration  10: 33887.238 ops/s
+
+
+Result "sm3HashTest":
+  33475.448 ±(99.9%) 701.493 ops/s [Average]
+  (min, avg, max) = (32414.691, 33475.448, 33967.335), stdev = 463.994
+  CI (99.9%): [32773.955, 34176.940] (assumes normal distribution)
+
+
+# JMH 1.12 (released 943 days ago, please consider updating!)
+# VM version: JDK 1.8.0_191, VM 25.191-b12
+# VM invoker: /usr/lib/jvm/java-8-oracle/jre/bin/java
+# VM options: <none>
+# Warmup: 10 iterations, 1 s each
+# Measurement: 10 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Throughput, ops/time
+# Benchmark: GuomiJava.Guomi_Interface_sm3_test.sm3HashTest
+# Parameters: (msg_size = 17)
+
+# Run progress: 52.63% complete, ETA 00:04:52
+# Fork: 1 of 1
+# Warmup Iteration   1: 22365.998 ops/s
+# Warmup Iteration   2: 21946.193 ops/s
+# Warmup Iteration   3: 22174.152 ops/s
+# Warmup Iteration   4: 22165.979 ops/s
+# Warmup Iteration   5: 22403.899 ops/s
+# Warmup Iteration   6: 22055.708 ops/s
+# Warmup Iteration   7: 22050.135 ops/s
+# Warmup Iteration   8: 21735.691 ops/s
+# Warmup Iteration   9: 21588.613 ops/s
+# Warmup Iteration  10: 20887.608 ops/s
+Iteration   1: 20328.684 ops/s
+Iteration   2: 21584.622 ops/s
+Iteration   3: 22074.011 ops/s
+Iteration   4: 21377.855 ops/s
+Iteration   5: 22010.287 ops/s
+Iteration   6: 22521.701 ops/s
+Iteration   7: 22368.265 ops/s
+Iteration   8: 22595.316 ops/s
+Iteration   9: 22387.366 ops/s
+Iteration  10: 22012.060 ops/s
+
+
+Result "sm3HashTest":
+  21926.017 ±(99.9%) 1034.777 ops/s [Average]
+  (min, avg, max) = (20328.684, 21926.017, 22595.316), stdev = 684.441
+  CI (99.9%): [20891.239, 22960.794] (assumes normal distribution)
+
+
+# JMH 1.12 (released 943 days ago, please consider updating!)
+# VM version: JDK 1.8.0_191, VM 25.191-b12
+# VM invoker: /usr/lib/jvm/java-8-oracle/jre/bin/java
+# VM options: <none>
+# Warmup: 10 iterations, 1 s each
+# Measurement: 10 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Throughput, ops/time
+# Benchmark: GuomiJava.Guomi_Interface_sm3_test.sm3HashTest
+# Parameters: (msg_size = 18)
+
+# Run progress: 57.89% complete, ETA 00:04:10
+# Fork: 1 of 1
+# Warmup Iteration   1: 14545.364 ops/s
+# Warmup Iteration   2: 14161.007 ops/s
+# Warmup Iteration   3: 14728.830 ops/s
+# Warmup Iteration   4: 14800.761 ops/s
+# Warmup Iteration   5: 14302.384 ops/s
+# Warmup Iteration   6: 14836.199 ops/s
+# Warmup Iteration   7: 14929.291 ops/s
+# Warmup Iteration   8: 15027.223 ops/s
+# Warmup Iteration   9: 14813.473 ops/s
+# Warmup Iteration  10: 14819.638 ops/s
+Iteration   1: 14956.169 ops/s
+Iteration   2: 15004.144 ops/s
+Iteration   3: 14736.525 ops/s
+Iteration   4: 15046.251 ops/s
+Iteration   5: 14778.688 ops/s
+Iteration   6: 14941.364 ops/s
+Iteration   7: 14886.050 ops/s
+Iteration   8: 15141.146 ops/s
+Iteration   9: 15101.383 ops/s
+Iteration  10: 14937.372 ops/s
+
+
+Result "sm3HashTest":
+  14952.909 ±(99.9%) 195.730 ops/s [Average]
+  (min, avg, max) = (14736.525, 14952.909, 15141.146), stdev = 129.463
+  CI (99.9%): [14757.180, 15148.639] (assumes normal distribution)
+
+
+# Run complete. Total time: 00:06:05
+
+Benchmark                                       (msg_size)   Mode  Cnt       Score       Error  Units
+GuomiJava.Guomi_Interface_sm3_test.sm3HashTest           7  thrpt   10  524216.650 ± 13148.823  ops/s
+GuomiJava.Guomi_Interface_sm3_test.sm3HashTest           8  thrpt   10  524248.675 ± 13683.307  ops/s
+GuomiJava.Guomi_Interface_sm3_test.sm3HashTest           9  thrpt   10  366845.591 ± 12920.089  ops/s
+GuomiJava.Guomi_Interface_sm3_test.sm3HashTest          10  thrpt   10  271951.466 ±  9026.113  ops/s
+GuomiJava.Guomi_Interface_sm3_test.sm3HashTest          11  thrpt   10  220969.801 ±  3719.447  ops/s
+GuomiJava.Guomi_Interface_sm3_test.sm3HashTest          12  thrpt   10  158708.470 ±  7933.669  ops/s
+GuomiJava.Guomi_Interface_sm3_test.sm3HashTest          13  thrpt   10  103354.058 ±  2046.195  ops/s
+GuomiJava.Guomi_Interface_sm3_test.sm3HashTest          14  thrpt   10   69848.355 ±  2739.804  ops/s
+GuomiJava.Guomi_Interface_sm3_test.sm3HashTest          15  thrpt   10   48735.943 ±  1613.830  ops/s
+GuomiJava.Guomi_Interface_sm3_test.sm3HashTest          16  thrpt   10   33475.448 ±   701.493  ops/s
+GuomiJava.Guomi_Interface_sm3_test.sm3HashTest          17  thrpt   10   21926.017 ±  1034.777  ops/s
+GuomiJava.Guomi_Interface_sm3_test.sm3HashTest          18  thrpt   10   14952.909 ±   195.730  ops/s
